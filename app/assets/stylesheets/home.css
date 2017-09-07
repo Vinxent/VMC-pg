@@ -1,0 +1,444 @@
+body, html {
+	background: #E5E1E0;
+	height: 100%;
+}
+
+title {
+    display: none;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://images6.alphacoders.com/374/374706.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.parallax2 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax3 {
+
+	background-image: url('http://s3.amazonaws.com/mrp-listings/8/0/4/67424408/1e731ea8768dbb643d18a0eb918cc10c.jpeg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax4 {
+
+	background-image: url('http://www.nationalobserver.com/sites/nationalobserver.com/files/styles/body_img/public/img/2017/05/04/2016-emc-stgeorgesprivateschool.jpg?itok=HZjzmQ90');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax5 {
+
+	background-image: url('https://preview.ibb.co/cnbM4F/MG_3307.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax6 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax7 {
+
+	background-image: url('https://sgscreed.com/wp-content/uploads/2014/11/campus1-900x600.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax8 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#welcome-text {
+	width: 60%;
+  	text-align: center;
+  	display: inline-block;
+  	margin-top: 21%;
+  	margin-bottom: 17%;
+  	border-top: 3px solid;
+  	border-bottom: 3px solid;
+  	border-color: #E51D39;
+}
+
+#welcome-text p{
+	margin-top: 15%;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#w-subheader {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
+}
+
+
+#welcome-navbar {
+	background-color: black;
+}
+
+li#space{
+	border: none;
+}
+
+li#space:hover{
+	background-color: black;
+}
+
+li.w-menu_item {
+	border: none;
+}
+
+li.w-menu_item:hover {
+	background-color: black;
+}
+
+/*ICONS*/
+
+.fa {
+	padding: 12px;
+  	font-size: 5px;
+  	width: 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 5px;
+  	float: right;
+}
+
+.fa-facebook {
+	background: white;
+	color: #231815;
+}
+
+.fa-twitter {
+	background: white;
+  	color: #231815;
+}
+
+.fa-linkedin {
+	background: white;
+  	color: #231815;
+}
+.fa-envelope {
+	background: white;
+	color: #231815;
+}
+
+.fa:hover {
+	background-color: white;
+}
+
+/*
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+  	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+  	color: white;
+}
+.fa-envelope {
+	background: #56ACDE;;
+	color: black;
+}
+*/
+
+/*icons END*/
+
+#logo {
+	background-color: #323030;
+	margin: 10px 0px 10px 10px;
+	height: 100px;
+	width: auto;
+	float: left;
+}
+
+#logo:hover {
+	opacity: 0.7;
+}
+
+#navbar  {
+	background-color: #323030;
+	color: #000000;
+	font-family: Garamond, Futura, Tahoma;
+	font-size: 1em;
+	clear: both;
+	width: 100%
+	height auto;
+}
+
+li.menu_container {
+	padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	float: left;
+    border-right:1px solid #0f0f0f;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+	background-color: gray;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #323030;
+    background-image: url('http://www.iconsdb.com/icons/preview/white/search-3-xxl.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding: 6px 10px 6px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: white;
+    float: right;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+
+.menu_text {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#directory {
+	padding: 10px; 
+	background-color: #323030;
+	color: #000000;
+	font-family: Garamond, Futura, Tahoma;
+	font-size: 1em;
+	width: 100%;
+	}
+
+#search {
+	padding: 10px;
+	float: right;
+	clear: both;
+}
+
+#redbar {
+	padding: 5px;
+	background: #E51D39;
+	clear: both;
+}
+
+/*MAIN*/
+
+.mainpad{
+	background: gray;
+	padding: 50px 200px 50px 200px;
+	display: block;
+}
+
+#titles-index {
+	text-align: center;
+	font-family: Verdana;
+	color: white;
+}
+
+
+/*Title*/
+
+
+
+/*ABOUT*/
+
+#about {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*Title*/
+
+#forum {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*EVENTS*/
+
+#events {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*RESOURCES*/
+
+#resources { 
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*CALENDAR*/
+
+#calendar {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*CONTACT*/
+
+#contact {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*Above seems repetitive but will individualize later on*/
+
+img.temp-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 0px 50px 0px;
+}
+
+/*FOOTER*/
+
+#footer {
+	background-color: #383B39;
+	border-width: 5px;
+	border-style: solid;
+	border-color: orange;
+}
+
+#ftmain {
+	background-color: #383B39;
+	padding: 1px 200px 1px 200px;
+}
+
+a.w-menu_text {
+	color: white;
+	font-weight: bold;
+	font-family: "Optima";
+}
+
+a.w-menu_text:hover 
+{
+     color: #ffffff; 
+     text-decoration: none; 
+     cursor: pointer;  
+}
+
+a {
+    color: #ADA7A3;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: white; 
+     text-decoration:none; 
+     cursor: pointer;  
+     opacity: 0.8;
+}
+
+#ftfooter {
+	background-color: #323030;
+	padding: 1px 200px 1px 200px;
+}
