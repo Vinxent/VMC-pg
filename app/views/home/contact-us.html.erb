@@ -1,9 +1,13 @@
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link type="text/css" rel="stylesheet" href="articles.css">
+	<link type="text/css" rel="stylesheet" href="home.css">
 </head>
 
 <body>
+
+	<div id='redbar'>
+	</div>
+
 	<div id="welcome-container">
 
 		<div class="parallax">
@@ -56,35 +60,62 @@
 	<div id='redbar'>
 	</div>
 
-	<a href="https://www.stgeorges.bc.ca/page"><img src="https://preview.ibb.co/fVSmYa/LOGO_WORDS_2_gray_background.jpg" alt="LOGO_WORDS_2_gray_background" border="0" id="logo"></a>
-	
-	<h1 style="text-align: center; clear: both;">Forum</h1>
+	<div id="navbar">
+		
+		<a href="https://www.stgeorges.bc.ca/page"><img src="https://preview.ibb.co/fVSmYa/LOGO_WORDS_2_gray_background.jpg" alt="LOGO_WORDS_2_gray_background" border="0" id="logo"></a>
+			
+		<ul class="menu_container">
+			<li class="menu_item">
+				<a class="menu_text" href="/home">Home</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/about">About</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/articles">Forum</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/events">Events</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/resources">Resources</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/calendar">Calendar</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/contact-us">Contact us</a>
+			</li>
+			<li>
+				<a class="menu_text" href="#">Search</a>
+			</li>
+			<li>
+				<a class="menu_text" href="#">.</a>
+			</li>
+			
+			<form action="/action_page.php" id ="search">
+				<input type="text" name="search" placeholder="Search..">
+			</form> 
 
-<%= link_to "New article", new_article_path %>
+		</ul>
+		<br><br>
+	</div>
 
-<table>
-	<tr>
-		<th>Title</th>
-		<th>Text</th>
-		<th colspan="2"></th>
-	</tr>
+	<div id='redbar'>
+	</div>
 
-	<% @articles.each do |article| %>
-		<tr>
-			<td><%= article.title %></td>
-			<td><%= article.text %></td>
-			<td><%= link_to 'Show', article_path(article) %></td>
-			<td><%= link_to 'Edit', edit_article_path(article) %></td>
-			<td><%= link_to 'Destroy', article_path(article),
-					method: :delete,
-					data: { confirm: 'Are you sure?' } %></td>
-		</tr>
-	<% end %>
-</table>
+	<div id="contact-us_page">
 
-<br><br>
+		<div>
+			<h1 style="text-align: center;">Contact</h1>
 
-<div id="footer">
+		</div>
+
+		<div class="parallax parallax2">
+			<p style="height: 500px;"></p>
+		</div>
+
+	<div id="footer">
 		<div id="ftmain">
 			<p style="color: #ffffff">The Vocal Music Club’s purpose is to provide a haven for singers of all styles and languages. We strive for a fun, positive, and inclusive learning environment. <span><a href="https://www.stgeorges.bc.ca/page/explore/mission-vision-and-values"><strong>Read more...</strong></a></span></p>
 		</div>
