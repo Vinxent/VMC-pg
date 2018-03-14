@@ -15,112 +15,7 @@ title {
     }
 }
 
-.parallax {
-    /* The image used */
-    background-image: url('https://images6.alphacoders.com/374/374706.jpg');
-
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
-}
-
-.parallax2 {
-
-	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
-
-	height: 100%;
-
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.parallax3 {
-
-	background-image: url('http://s3.amazonaws.com/mrp-listings/8/0/4/67424408/1e731ea8768dbb643d18a0eb918cc10c.jpeg');
-
-	height: 100%;
-
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.parallax4 {
-
-	background-image: url('http://www.nationalobserver.com/sites/nationalobserver.com/files/styles/body_img/public/img/2017/05/04/2016-emc-stgeorgesprivateschool.jpg?itok=HZjzmQ90');
-
-	height: 100%;
-
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.parallax5 {
-
-	background-image: url('https://preview.ibb.co/cnbM4F/MG_3307.jpg');
-
-	height: 100%;
-
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.parallax6 {
-
-	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
-
-	height: 100%;
-
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.parallax7 {
-
-	background-image: url('https://sgscreed.com/wp-content/uploads/2014/11/campus1-900x600.jpg');
-
-	height: 100%;
-
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.parallax8 {
-
-	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
-
-	height: 100%;
-
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
+/*Header*/
 
 #welcome-text {
 	width: 60%;
@@ -243,15 +138,33 @@ li.w-menu_item:hover {
 	opacity: 0.7;
 }
 
-#navbar  {
-	background-color: #323030;
-	color: #000000;
-	font-family: Garamond, Futura, Tahoma;
-	font-size: 1em;
-	clear: both;
-	width: 100%
-	height auto;
+/* Style the header */
+.header {
+  background-color: #323030;
+  color: #000000;
+  font-family: Garamond, Futura, Tahoma;
+  font-size: 1em;
+  clear: both;
+  width: 100%
+  height auto;
 }
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+} 
 
 li.menu_container {
 	padding: 50px;
@@ -334,6 +247,117 @@ input[type=text]:focus {
 	padding: 5px;
 	background: #E51D39;
 	clear: both;
+}
+
+
+/*Header END*/
+
+
+.parallax {
+    /* The image used */
+    background-image: url('https://images6.alphacoders.com/374/374706.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.parallax2 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax3 {
+
+	background-image: url('http://s3.amazonaws.com/mrp-listings/8/0/4/67424408/1e731ea8768dbb643d18a0eb918cc10c.jpeg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax4 {
+
+	background-image: url('http://www.nationalobserver.com/sites/nationalobserver.com/files/styles/body_img/public/img/2017/05/04/2016-emc-stgeorgesprivateschool.jpg?itok=HZjzmQ90');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax5 {
+
+	background-image: url('https://preview.ibb.co/cnbM4F/MG_3307.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax6 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax7 {
+
+	background-image: url('https://sgscreed.com/wp-content/uploads/2014/11/campus1-900x600.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax8 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
 }
 
 /*MAIN*/
