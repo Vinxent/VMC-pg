@@ -139,31 +139,33 @@ li.w-menu_item:hover {
 }
 
 /* Style the header */
-.header {
-  background-color: #323030;
-  color: #000000;
-  font-family: Garamond, Futura, Tahoma;
-  font-size: 1em;
-  clear: both;
-  width: 100%
-  height auto;
-  opacity: 0.9;
+#navbar {
+	overflow: hidden;
+  	background-color: #323030;
+  	color: #000000;
+  	font-family: Garamond, Futura, Tahoma;
+  	font-size: 1em;
+  	clear: both;
+  	width: 100%
+  	height: auto;
+	opacity: 0.95;
 }
 
 /* Page content */
 .content {
+	padding-top: 0;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+ 	position: fixed;
+	top: 0;
+	width: 100%
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 102px;
+	padding-top: 102px;
 } 
 
 li.menu_container {
@@ -360,9 +362,9 @@ input[type=text]:focus {
     opacity: 1;
 }
 
-/*MAIN*/
-
-.mainpad{
+//*MAIN*/
+ 
+#title {
 	background: gray;
 	padding: 50px 200px 50px 200px;
 	display: block;
@@ -372,6 +374,46 @@ input[type=text]:focus {
 	text-align: center;
 	font-family: Verdana;
 	color: white;
+}
+
+/*ABOUT*/
+
+#about {
+	background: #630826;
+	padding: 50px 200px 50px 200px;
+	display: block;
+}
+
+/*FORUM*/
+
+#forum {
+	background: #630826;
+	padding: 50px 200px 50px 200px;
+	display: block;
+}
+
+/*EVENTS*/
+
+#events {
+	background: #630826;
+	padding: 50px 200px 50px 200px;
+	display: block;
+}
+
+/*RESOURCES*/
+
+#resources {
+	background: #630826;
+	padding: 50px 200px 50px 200px;
+	display: block;
+}
+
+/*CONTACT-US*/
+
+#contact {
+	background: #630826;
+	padding: 50px 200px 50px 200px;
+	display: block;
 }
 
 /*Above seems repetitive but will individualize later on*/
