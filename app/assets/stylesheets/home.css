@@ -147,11 +147,11 @@ li.w-menu_item:hover {
   clear: both;
   width: 100%
   height auto;
+  opacity: 0.9;
 }
 
 /* Page content */
 .content {
-  padding: 16px;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -225,7 +225,7 @@ input[type=text]:focus {
 
 .menu_text {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 #directory {
