@@ -368,57 +368,10 @@ input[type=text]:focus {
 	display: block;
 }
 
-#titles-index {
+.titles-index {
 	text-align: center;
 	font-family: Verdana;
 	color: white;
-}
-
-
-/*Title*/
-
-
-
-/*ABOUT*/
-
-#about {
-	background: #630826;
-	padding: 50px 0px 50px 0px;
-}
-
-/*Title*/
-
-#forum {
-	background: #630826;
-	padding: 50px 0px 50px 0px;
-}
-
-/*EVENTS*/
-
-#events {
-	background: #630826;
-	padding: 50px 0px 50px 0px;
-}
-
-/*RESOURCES*/
-
-#resources { 
-	background: #630826;
-	padding: 50px 0px 50px 0px;
-}
-
-/*CALENDAR*/
-
-#calendar {
-	background: #630826;
-	padding: 50px 0px 50px 0px;
-}
-
-/*CONTACT*/
-
-#contact {
-	background: #630826;
-	padding: 50px 0px 50px 0px;
 }
 
 /*Above seems repetitive but will individualize later on*/
