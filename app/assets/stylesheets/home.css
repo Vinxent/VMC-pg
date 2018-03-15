@@ -140,7 +140,6 @@ li.w-menu_item:hover {
 
 /* Style the header */
 #navbar {
-	overflow: hidden;
   	background-color: #323030;
   	color: #000000;
   	font-family: Garamond, Futura, Tahoma;
