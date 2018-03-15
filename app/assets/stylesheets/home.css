@@ -142,7 +142,7 @@ li.w-menu_item:hover {
 .header {
   	background-color: #323030;
   	color: #000000;
-  	font-family: Garamond, Futura, Tahoma;
+  	font-family: Garamond, Tahoma;
   	font-size: 1em;
   	clear: both;
   	width: 100%;
@@ -166,10 +166,6 @@ li.w-menu_item:hover {
 	padding-top: 500px;
 } 
 
-li.menu_container {
-	padding: 50px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -177,16 +173,24 @@ ul {
     overflow: hidden;
 }
 
-li {
+li.menu_item {
+	display: block;
+	text-align: center;
+	padding: 0.4em 0.76em;
 	float: left;
     border-right:1px solid #0f0f0f;
+}
+
+.menu_text-logo {
+	margin-top: 0.2em;
+	padding: 0.5em 0.05em;
 }
 
 li:last-child {
     border-right: none;
 }
 
-li a {
+li.w-menu_item a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -197,8 +201,13 @@ li:hover {
 	background-color: gray;
 }
 
+img#saints-logo {
+	height: 2.2em;
+	width: 2.2em;
+}
+
 input[type=text] {
-    width: 130px;
+    width: 20em;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -216,7 +225,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    width: 100%;
+    width: 390%;
 }
 
 ::-moz-placeholder { /* Firefox 19+ */
