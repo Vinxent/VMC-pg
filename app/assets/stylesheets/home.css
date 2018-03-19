@@ -233,11 +233,14 @@ input[type=text]:focus {
   color: white;
 }
 
-.menu_text {
+a.menu_text {
 	font-weight: bold;
 	font-size: 1.2em;
 }
 
+a.menu_text:hover {
+	text-decoration: underline white;
+}
 #directory {
 	padding: 10px; 
 	background-color: #323030;
@@ -385,6 +388,49 @@ input[type=text]:focus {
 	padding: 50px 200px 50px 200px;
 	display: block;
 }
+
+.Grades {
+	float: left;
+	width: 50%;
+	height: 20%;
+}
+
+h2 {
+	text-align: center;
+}
+
+#grade12 {
+	background-color: #ffdbe6;
+}
+
+#grade11 {
+	background-color: #e9ffdb;
+}
+
+#grade10 {
+	background-color: #dfdbff;
+}
+
+#grade9 {
+	background-color: #dbffe6;
+}
+
+#grade8 {
+	background-color: #fff3db;
+}
+
+#Staff {
+	background-color: #dbffeb;
+}
+
+img.testers{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
 
 /*FORUM*/
 
