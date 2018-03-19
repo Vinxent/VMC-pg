@@ -126,15 +126,16 @@ li.w-menu_item:hover {
 
 /*icons END*/
 
-#logo {
+img#logo {
 	background-color: #323030;
 	margin: 10px 0px 10px 10px;
 	height: 100px;
-	width: auto;
+	width: 20%;
+	height: auto;
 	float: left;
 }
 
-#logo:hover {
+img#logo:hover {
 	opacity: 0.7;
 }
 
@@ -158,12 +159,12 @@ li.w-menu_item:hover {
 .sticky {
  	position: fixed;
 	top: 0;
-	width: 100%
+	width: 100%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-	padding-top: 500px;
+	padding-top: 140px;
 } 
 
 ul {
@@ -176,14 +177,14 @@ ul {
 li.menu_item {
 	display: block;
 	text-align: center;
-	padding: 0.4em 0.76em;
+	padding: 1.2em 2em;
 	float: left;
     border-right:1px solid #0f0f0f;
 }
 
 .menu_text-logo {
 	margin-top: 0.2em;
-	padding: 0.5em 0.05em;
+	padding: 0.2em 0.05em;
 }
 
 li:last-child {
@@ -203,11 +204,11 @@ li:hover {
 
 img#saints-logo {
 	height: 2.2em;
-	width: 2.2em;
+	width: auto;
 }
 
 input[type=text] {
-    width: 20em;
+    width: 30em;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -234,7 +235,7 @@ input[type=text]:focus {
 
 .menu_text {
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 #directory {
@@ -245,12 +246,6 @@ input[type=text]:focus {
 	font-size: 1em;
 	width: 100%;
 	}
-
-#search {
-	padding: 10px;
-	float: right;
-	clear: both;
-}
 
 #redbar {
 	padding: 5px;
@@ -369,7 +364,7 @@ input[type=text]:focus {
     opacity: 1;
 }
 
-//*MAIN*/
+/*MAIN*/
  
 #title {
 	background: gray;
