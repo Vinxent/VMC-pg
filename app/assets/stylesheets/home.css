@@ -167,6 +167,10 @@ img#logo:hover {
 	padding-top: 140px;
 } 
 
+.inside {
+	padding: 0 2.5%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
