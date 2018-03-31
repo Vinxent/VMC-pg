@@ -393,6 +393,21 @@ a.menu_text:hover {
 	display: block;
 }
 
+.who {
+	float: left;
+	width: 40%;
+	padding: 25% 5%;
+}
+
+#who-context {
+	font-size: 1.2em;
+	font-family: Verdana;
+}
+
+h1#who-title {
+	font-size: 3em;
+}
+
 .Grades {
 	float: left;
 	width: 50%;
