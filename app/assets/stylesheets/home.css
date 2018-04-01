@@ -211,6 +211,9 @@ img#saints-logo {
 	width: auto;
 }
 
+/* Search Bar */
+
+/*
 input[type=text] {
     width: 30em;
     box-sizing: border-box;
@@ -232,6 +235,7 @@ input[type=text] {
 input[type=text]:focus {
     width: 390%;
 }
+*/
 
 ::-moz-placeholder { /* Firefox 19+ */
   color: white;
@@ -360,7 +364,7 @@ a.menu_text:hover {
 
 .parallax8 {
 
-	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+	background-image: url('https://i.pinimg.com/originals/6e/53/8c/6e538c451c1e16aee4c38c08854a5b18.jpg');
 
 	height: 100%;
 
@@ -394,18 +398,22 @@ a.menu_text:hover {
 }
 
 .who {
+	display: block;
 	float: left;
 	width: 40%;
-	padding: 25% 5%;
+	padding: 10% 5%;
 }
 
-#who-context {
+p#who-context {
 	font-size: 1.2em;
 	font-family: Verdana;
+	color: white;
 }
 
 h1#who-title {
 	font-size: 3em;
+	color: white;
+	padding: 15% 0%;
 }
 
 .Grades {
