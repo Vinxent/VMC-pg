@@ -436,6 +436,8 @@ h2 {
 
 p#founders {
 	margin: 0% 25%;
+	font-family: Verdana;
+	color: #323030;
 }
 
 #notfounders{
@@ -446,12 +448,20 @@ p#founders {
 
 p#notfounders{
 	margin: 0% 10%;
+	font-family: Verdana;
+	color: #323030;
 }
 
-#founders2 {
+.founders2 {
 	padding: 1% 0%;
 	background-color: #fff3db;
 	text-align: justify;
+}
+
+p.founders2 {
+	margin: 0% 25%;
+	font-family: Verdana;
+	color: #323030;
 }
 
 
