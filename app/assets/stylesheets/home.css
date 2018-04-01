@@ -416,9 +416,9 @@ h1#who-title {
 	padding: 15% 0%;
 }
 
-.Grades {
+.members {
 	float: left;
-	width: 50%;
+	width: 25%;
 	height: 20%;
 }
 
@@ -426,36 +426,12 @@ h2 {
 	text-align: center;
 }
 
-#grade12 {
-	background-color: #ffdbe6;
-}
-
-#grade11 {
-	background-color: #e9ffdb;
-}
-
-#grade10 {
-	background-color: #dfdbff;
-}
-
-#grade9 {
-	background-color: #dbffe6;
-}
-
-#grade8 {
+#founders {
 	background-color: #fff3db;
 }
 
-#Staff {
-	background-color: #dbffeb;
-}
-
-img.testers{
-	width: 100%;
-	height: auto;
-	margin: 0;
-	border: 0;
-	padding: 0;
+#notfounders{
+	background-color: #f9dba2;
 }
 
 
