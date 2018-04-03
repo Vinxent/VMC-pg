@@ -534,7 +534,18 @@ p.founders2 {
 
 /*RESOURCES*/
 
+.resources {
+	background-color: #323030;
+	margin: 0;
+	border: 0;
+	padding: 2% 20%;
+}
 
+h1.resources-context {
+	margin: 0;
+	border: 0;
+	font-family: Copperplate;
+}
 
 /*CONTACT-US*/
 
