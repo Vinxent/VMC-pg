@@ -401,6 +401,18 @@ a.menu_text:hover {
     opacity: 1;
 }
 
+.parallax11 {
+
+	background-image: url('https://preview.ibb.co/nOKpmc/Copy_of_IMG_8991.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
 /*INDEX*/
  
 .upevents {
