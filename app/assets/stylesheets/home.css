@@ -523,10 +523,14 @@ p.founders2 {
 /*FORUM*/
 
 
-
 /*EVENTS*/
 
-
+.events-tl{
+	background-color: #323030;
+	margin: 0;
+	border: 0;
+	padding: 2% 10%; 
+}
 
 /*RESOURCES*/
 
