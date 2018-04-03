@@ -375,11 +375,62 @@ a.menu_text:hover {
     opacity: 1;
 }
 
+.parallax9 {
 
+	background-image: url('https://preview.ibb.co/d1UQsH/index1.jpg');
 
-/*MAIN*/
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax10 {
+
+	background-image: url('https://preview.ibb.co/iht4Kx/Copy_of_fullsizeoutput_ca6_1.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+/*INDEX*/
  
+.upevents {
+	background-color: #323030;
+	margin: 0;
+	border: 0;
+	padding: 2% 5%; 
+	text-align: justify;
+}
 
+h1.index-titles {
+	margin: 0;
+	border: 0;
+	font-family: Copperplate;
+	font-size: 5em;
+	color: #F5AF54;
+}
+
+h1.index-subtitles {
+	margin: 0;
+	border: 0;
+	font-family: Copperplate;
+	color: white;
+}
+
+p.index-content {
+	font-family: Copperplate;
+	font-size: 2em;
+	color: #E53049;
+}
 
 /*ABOUT*/
 
@@ -459,35 +510,18 @@ p.founders2 {
 
 /*FORUM*/
 
-#forum {
-	background: #630826;
-	padding: 50px 200px 50px 200px;
-	display: block;
-}
+
 
 /*EVENTS*/
 
-#events {
-	background: #630826;
-	padding: 50px 200px 50px 200px;
-	display: block;
-}
+
 
 /*RESOURCES*/
 
-#resources {
-	background: #630826;
-	padding: 50px 200px 50px 200px;
-	display: block;
-}
+
 
 /*CONTACT-US*/
 
-#contact {
-	background: #630826;
-	padding: 50px 200px 50px 200px;
-	display: block;
-}
 
 /*Above seems repetitive but will individualize later on*/
 
