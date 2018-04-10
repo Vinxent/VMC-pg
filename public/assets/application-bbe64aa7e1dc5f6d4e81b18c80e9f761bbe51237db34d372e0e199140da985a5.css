@@ -1,0 +1,1083 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+body, html {
+	background: #E5E1E0;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+title {
+    display: none;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://images6.alphacoders.com/374/374706.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.parallax2 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax3 {
+
+	background-image: url('http://s3.amazonaws.com/mrp-listings/8/0/4/67424408/1e731ea8768dbb643d18a0eb918cc10c.jpeg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax4 {
+
+	background-image: url('http://www.nationalobserver.com/sites/nationalobserver.com/files/styles/body_img/public/img/2017/05/04/2016-emc-stgeorgesprivateschool.jpg?itok=HZjzmQ90');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax5 {
+
+	background-image: url('https://preview.ibb.co/cnbM4F/MG_3307.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax6 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax7 {
+
+	background-image: url('https://sgscreed.com/wp-content/uploads/2014/11/campus1-900x600.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax8 {
+
+	background-image: url('http://themainlander.com/wp-content/uploads/2014/09/st.george-school.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#welcome-text {
+	width: 60%;
+  	text-align: center;
+  	display: inline-block;
+  	margin-top: 21%;
+  	margin-bottom: 17%;
+  	border-top: 3px solid;
+  	border-bottom: 3px solid;
+  	border-color: #E51D39;
+}
+
+#welcome-text p{
+	margin-top: 15%;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#w-subheader {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
+}
+
+
+#welcome-navbar {
+	background-color: black;
+}
+
+li#space{
+	border: none;
+}
+
+li#space:hover{
+	background-color: black;
+}
+
+li.w-menu_item {
+	border: none;
+}
+
+li.w-menu_item:hover {
+	background-color: black;
+}
+
+/*ICONS*/
+
+.fa {
+	padding: 12px;
+  	font-size: 5px;
+  	width: 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 5px;
+  	float: right;
+}
+
+.fa-facebook {
+	background: white;
+	color: #231815;
+}
+
+.fa-twitter {
+	background: white;
+  	color: #231815;
+}
+
+.fa-linkedin {
+	background: white;
+  	color: #231815;
+}
+.fa-envelope {
+	background: white;
+	color: #231815;
+}
+
+.fa:hover {
+	background-color: white;
+}
+
+/*
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+  	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+  	color: white;
+}
+.fa-envelope {
+	background: #56ACDE;;
+	color: black;
+}
+*/
+
+/*icons END*/
+
+#logo {
+	background-color: #323030;
+	margin: 10px 0px 10px 10px;
+	height: 100px;
+	width: auto;
+	float: left;
+}
+
+#logo:hover {
+	opacity: 0.7;
+}
+
+#navbar  {
+	background-color: #323030;
+	color: #000000;
+	font-family: Garamond, Futura, Tahoma;
+	font-size: 1em;
+	clear: both;
+	width: 100%
+	height auto;
+}
+
+li.menu_container {
+	padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	float: left;
+    border-right:1px solid #0f0f0f;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+	background-color: gray;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #323030;
+    background-image: url('http://www.iconsdb.com/icons/preview/white/search-3-xxl.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding: 6px 10px 6px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: white;
+    float: right;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+
+.menu_text {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#directory {
+	padding: 10px; 
+	background-color: #323030;
+	color: #000000;
+	font-family: Garamond, Futura, Tahoma;
+	font-size: 1em;
+	width: 100%;
+	}
+
+#search {
+	padding: 10px;
+	float: right;
+	clear: both;
+}
+
+#redbar {
+	padding: 5px;
+	background: #E51D39;
+	clear: both;
+}
+
+/*MAIN*/
+
+.mainpad{
+	background: gray;
+	padding: 50px 200px 50px 200px;
+	display: block;
+}
+
+#titles-index {
+	text-align: center;
+	font-family: Verdana;
+	color: white;
+}
+
+
+/*Title*/
+
+
+
+/*ABOUT*/
+
+#about {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*Title*/
+
+#forum {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*EVENTS*/
+
+#events {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*RESOURCES*/
+
+#resources { 
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*CALENDAR*/
+
+#calendar {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*CONTACT*/
+
+#contact {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*Above seems repetitive but will individualize later on*/
+
+img.temp-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 0px 50px 0px;
+}
+
+/*FOOTER*/
+
+#footer {
+	background-color: #383B39;
+	border-width: 5px;
+	border-style: solid;
+	border-color: orange;
+}
+
+#ftmain {
+	background-color: #383B39;
+	padding: 1px 200px 1px 200px;
+}
+
+a.w-menu_text {
+	color: white;
+	font-weight: bold;
+	font-family: "Optima";
+}
+
+a.w-menu_text:hover 
+{
+     color: #ffffff; 
+     text-decoration: none; 
+     cursor: pointer;  
+}
+
+a {
+    color: #ADA7A3;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: white; 
+     text-decoration:none; 
+     cursor: pointer;  
+     opacity: 0.8;
+}
+
+#ftfooter {
+	background-color: #323030;
+	padding: 1px 200px 1px 200px;
+}
+body, html {
+	background: #E5E1E0;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+title {
+    display: none;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/*Header*/
+
+#welcome-text {
+	width: 60%;
+  	text-align: center;
+  	display: inline-block;
+  	margin-top: 21%;
+  	margin-bottom: 17%;
+  	border-top: 3px solid;
+  	border-bottom: 3px solid;
+  	border-color: #E51D39;
+}
+
+#welcome-text p{
+	margin-top: 15%;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#w-subheader {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
+}
+
+
+#welcome-navbar {
+	background-color: black;
+}
+
+li#space{
+	border: none;
+}
+
+li#space:hover{
+	background-color: black;
+}
+
+li.w-menu_item {
+	border: none;
+}
+
+li.w-menu_item:hover {
+	background-color: black;
+}
+
+/*ICONS*/
+
+.fa {
+	padding: 12px;
+  	font-size: 5px;
+  	width: 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 5px;
+  	float: right;
+}
+
+.fa-facebook {
+	background: white;
+	color: #231815;
+}
+
+.fa-twitter {
+	background: white;
+  	color: #231815;
+}
+
+.fa-linkedin {
+	background: white;
+  	color: #231815;
+}
+.fa-envelope {
+	background: white;
+	color: #231815;
+}
+
+.fa:hover {
+	background-color: white;
+}
+
+/*
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+  	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+  	color: white;
+}
+.fa-envelope {
+	background: #56ACDE;;
+	color: black;
+}
+*/
+
+/*icons END*/
+
+img#logo {
+	background-color: #323030;
+	margin: 10px 0px 10px 10px;
+	height: 100px;
+	width: 20%;
+	height: auto;
+	float: left;
+}
+
+img#logo:hover {
+	opacity: 0.7;
+}
+
+/* Style the header */
+.header {
+  	background-color: #323030;
+  	color: #000000;
+  	font-family: Garamond, Tahoma;
+  	font-size: 1em;
+  	clear: both;
+  	width: 100%;
+	opacity: 0.9;
+}
+
+/* Page content */
+.content {
+	padding: 0;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+ 	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 140px;
+} 
+
+.inside {
+	padding: 0 2.5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.menu_item {
+	display: block;
+	text-align: center;
+	padding: 1.2em 2em;
+	float: left;
+    border-right:1px solid #0f0f0f;
+}
+
+.menu_text-logo {
+	margin-top: 0.2em;
+	padding: 0.2em 0.05em;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li.w-menu_item a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+	background-color: gray;
+}
+
+img#saints-logo {
+	height: 2.2em;
+	width: auto;
+}
+
+/* Search Bar */
+
+/*
+input[type=text] {
+    width: 30em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #323030;
+    background-image: url('http://www.iconsdb.com/icons/preview/white/search-3-xxl.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding: 6px 10px 6px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: white;
+    float: right;
+}
+
+input[type=text]:focus {
+    width: 390%;
+}
+*/
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+
+a.menu_text {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+a.menu_text:hover {
+	text-decoration: underline white;
+}
+#directory {
+	padding: 10px; 
+	background-color: #323030;
+	color: #000000;
+	font-family: Garamond, Futura, Tahoma;
+	font-size: 1em;
+	width: 100%;
+	}
+
+#redbar {
+	padding: 5px;
+	background: #E51D39;
+	clear: both;
+}
+
+
+/*Header END*/
+
+
+.parallax {
+    /* The image used */
+    background-image: url('https://images6.alphacoders.com/374/374706.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.parallax2 {
+
+	background-image: url('https://preview.ibb.co/iAQdpn/IMG_9026.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax3 {
+
+	background-image: url('https://preview.ibb.co/buOdN7/IMG_8819.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax4 {
+
+	background-image: url('https://preview.ibb.co/nzfYN7/Events_Collage.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax5 {
+
+	background-image: url('https://preview.ibb.co/cnbM4F/MG_3307.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax6 {
+
+	background-image: url('https://preview.ibb.co/bFVKUn/IMG_8920.jpg" alt="IMG_8920');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.parallax7 {
+
+	background-image: url('https://preview.ibb.co/jFkmEn/IMG_8819.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax8 {
+
+	background-image: url('https://i.pinimg.com/originals/6e/53/8c/6e538c451c1e16aee4c38c08854a5b18.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax9 {
+
+	background-image: url('https://preview.ibb.co/d1UQsH/index1.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax10 {
+
+	background-image: url('https://preview.ibb.co/iht4Kx/Copy_of_fullsizeoutput_ca6_1.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.parallax11 {
+
+	background-image: url('https://preview.ibb.co/nOKpmc/Copy_of_IMG_8991.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+/*INDEX*/
+ 
+.upevents {
+	background-color: #323030;
+	margin: 0;
+	border: 0;
+	padding: 2% 5%; 
+	text-align: justify;
+}
+
+h1.index-titles {
+	margin: 0;
+	border: 0;
+	font-family: Copperplate;
+	font-size: 5em;
+	color: #F5AF54;
+}
+
+h1.index-subtitles {
+	margin: 0;
+	border: 0;
+	font-family: Copperplate;
+	color: white;
+}
+
+p.index-content {
+	font-family: Copperplate;
+	font-size: 2em;
+	color: #E53049;
+}
+
+/*ABOUT*/
+
+#about {
+	background: #630826;
+	padding: 50px 200px 50px 200px;
+	display: block;
+}
+
+.who {
+	display: block;
+	float: left;
+	width: 40%;
+	padding: 15% 5%;
+}
+
+p#who-context {
+	font-size: 1.5em;
+	font-family: Verdana;
+	color: white;
+	text-shadow: 5px 5px 10px black;
+}
+
+h1#who-title {
+	font-size: 5em;
+	color: white;
+	padding: 30% 0%;
+	text-shadow: 5px 5px 10px black;
+}
+
+.members {
+	float: left;
+	width: 50%;
+	height: 20%;
+}
+
+h2 {
+	text-align: center;
+}
+
+#founders {
+	padding: 1% 0%;
+	background-color: #fff3db;
+	text-align: justify;
+}
+
+p#founders {
+	margin: 0% 25%;
+	font-family: Verdana;
+	color: #323030;
+}
+
+#notfounders{
+	background-color: #f9dba2;
+	text-align: justify;
+	padding: 1% 0%;
+}
+
+p#notfounders{
+	margin: 0% 10%;
+	font-family: Verdana;
+	color: #323030;
+}
+
+.founders2 {
+	padding: 1% 0%;
+	background-color: #fff3db;
+	text-align: justify;
+}
+
+p.founders2 {
+	margin: 0% 25%;
+	font-family: Verdana;
+	color: #323030;
+}
+
+
+/*FORUM*/
+
+
+/*EVENTS*/
+
+.events-tl{
+	background-color: #323030;
+	margin: 0;
+	border: 0;
+	padding: 2% 10%; 
+}
+
+/*RESOURCES*/
+
+.resources {
+	background-color: #323030;
+	margin: 0;
+	border: 0;
+	padding: 2% 20%;
+}
+
+h1.resources-context {
+	margin: 0;
+	border: 0;
+	font-family: Copperplate;
+}
+
+/*CONTACT-US*/
+
+
+/*Above seems repetitive but will individualize later on*/
+
+img.temp-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 0px 50px 0px;
+}
+
+/*FOOTER*/
+
+#footer {
+	background-color: #383B39;
+	border-width: 5px;
+	border-style: solid;
+	border-color: orange;
+}
+
+#ftmain {
+	background-color: #383B39;
+	padding: 1px 200px 1px 200px;
+}
+
+a.w-menu_text {
+	color: white;
+	font-weight: bold;
+	font-family: Optima;
+}
+
+a.w-menu_text:hover 
+{
+     color: #ffffff; 
+     text-decoration: none; 
+     cursor: pointer;  
+}
+
+a {
+    color: #ADA7A3;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: white; 
+     text-decoration:none; 
+     cursor: pointer;  
+     opacity: 0.8;
+}
+
+#ftfooter {
+	background-color: #323030;
+	padding: 1px 200px 1px 200px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
